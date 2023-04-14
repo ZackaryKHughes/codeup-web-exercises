@@ -1,7 +1,7 @@
 "use strict";
 
 
-console.log("Whats up Dragon?");
+console.log("Hello from external JavaScript");
 
 
 //alert("Hey Dragon.");
@@ -12,5 +12,5 @@ console.log("Whats up Dragon?");
 //
 //console.log("Hello Again");
 
-var userInput = prompt('Please type something:');
-console.log('The user entered: ' + userInput);
+//var userInput = prompt('Please type something:');
+//console.log('The user entered: ' + userInput);
