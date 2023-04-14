@@ -37,7 +37,7 @@ function rentalPrice() {
 
 alert("Your rental total is " + "$" + rentalPrice() +".00");
 
-//Quetion 3
+//Question 3
 
 alert("I think you can afford the price of this given how much you worked this week. But lets just make sure of that.")
 
@@ -55,5 +55,21 @@ function totalPayout() {
 alert("Your rental total is " + "$" + totalPayout() +".00");
 
 
+//Question 4
+
+alert("With all that extra money you could enroll into school!");
+
+alert("Lets see if we have any conflicts that may arise for your enrollment.");
+
+function enrollment() {
+    let full = confirm("Is the class full? 'OK' for yes 'Cancel' for no");
+    let schedule = confirm("Does the class schedule conflict with your current schedule in anyway? 'OK' for yes 'Cancel' for no")
+    if (full === false && schedule === false) {
+        alert("You may attend the class");
+    } else {
+        alert("You may not attend the class");
+    }
+}
+enrollment();
 
 
