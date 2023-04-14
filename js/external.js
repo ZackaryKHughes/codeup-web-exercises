@@ -52,7 +52,7 @@ function totalPayout() {
     return totalPayment;
 }
 
-alert("Your rental total is " + "$" + totalPayout() +".00");
+alert("You got paid " + "$" + totalPayout() +".00");
 
 
 //Question 4
