@@ -83,8 +83,8 @@ function discount() {
         'Are you a Premium member? "Ok" for "Yes", "Cancel" for "No"'
     );
     let itemsPurchases = prompt("How many items did you purchase?");
-
-    if (premium === true || Number(itemsPurchases) > 2) {
+    let valid = confirm('Is the offer still valid? "Ok" for "Yes", "Cancel" for "No"')
+    if (premium === true || Number(itemsPurchases) > 2 && valid) {
         alert("Please enjoy your discount");
     } else {
         alert(
