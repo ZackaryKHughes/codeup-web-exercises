@@ -12,5 +12,8 @@ alert("Welcome to my Website!");
 //
 //console.log("Hello Again");
 
-//var userInput = prompt('Please type something:');
-//console.log('The user entered: ' + userInput);
+var userInput = prompt('What is your favorite color?');
+console.log('The user entered: ' + userInput);
+
+
+alert(userInput + " is my favorite color as well!!!");
