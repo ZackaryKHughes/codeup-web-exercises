@@ -39,3 +39,21 @@ alert("Your rental total is " + "$" + rentalPrice() +".00");
 
 //Quetion 3
 
+alert("I think you can afford the price of this given how much you worked this week. But lets just make sure of that.")
+
+function totalPayout() {
+    let google = prompt("How many hours did you work for Google this week?");
+    let google2 = prompt("What was the hourly rate?");
+    let amazon = prompt("How many hours did you work for Amazon this week?");
+    let amazon2 = prompt("What was the hourly rate?");
+    let facebook = prompt("How many hours did you work for Facebook this week?");
+    let facebook2 = prompt("What was the hourly rate?");
+    let totalPayment = ((google*google2) + (amazon*amazon2) + (facebook*facebook2));
+    return totalPayment;
+}
+
+alert("Your rental total is " + "$" + totalPayout() +".00");
+
+
+
+
