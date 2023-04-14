@@ -4,7 +4,7 @@
 console.log("Hello from external JavaScript");
 
 
-//alert("Hey Dragon.");
+alert("Welcome to my Website!");
 
 // the following line will show the OK/CANCEL confirm dialog
 //var confirmed = confirm('Are you sure you want to do XYZ?');
