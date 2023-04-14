@@ -72,4 +72,25 @@ function enrollment() {
 }
 enrollment();
 
+//Question 5
 
+alert("Need help buying books for class?")
+
+alert("Lets see if can get you a discount.")
+
+function discount() {
+    let premium = confirm(
+        'Are you a Premium member? "Ok" for "Yes", "Cancel" for "No"'
+    );
+    let itemsPurchases = prompt("How many items did you purchase?");
+
+    if (premium === true || Number(itemsPurchases) > 2) {
+        alert("Please enjoy your discount");
+    } else {
+        alert(
+            "Please become a member or purchase more than 2 items to enjoy the discount"
+        );
+    }
+}
+
+discount();
