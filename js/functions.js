@@ -1,5 +1,8 @@
 "use strict";
 
+
+alert("Welcome!")
+
 /**
  * TODO:
  * Create a function called 'sayHello' that takes a parameter 'name'.
@@ -8,13 +11,11 @@
  * Example
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
-function sayHello() {
-    let name = prompt("What is your name?")
-    let output = prompt("Hello, " + name + "!")
-    return output
 
+function sayHello(name) {
+  return "Hello " + name;
 }
-sayHello()
+
 
 /**
  * TODO:
@@ -23,14 +24,19 @@ sayHello()
  *
  * console.log 'helloMessage' to check your work
  */
-function sayHello() =
-    let
+let helloMessage = sayHello("Zackary");
+console.log(helloMessage);
+
+
+
 /**
  * TODO:
  * Store your name as a string in a variable named 'myName', and pass that
  * variable to the 'sayHello' function. You should see the same output in the
  * console.
  */
+let myName = ("Zackary");
+console.log(sayHello(myName));
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
@@ -53,7 +59,11 @@ var random = Math.floor((Math.random() * 3) + 1);
  * different result everytime you refresh the page if you are using the random
  * number)
  */
+function isTwo(x) {
+    return x === 2;
+}
 
+console.log(isTwo(random));
 /**
  * TODO:
  * Create a function named 'calculateTip' to calculate a tip on a bill at a
@@ -65,7 +75,12 @@ var random = Math.floor((Math.random() * 3) + 1);
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
-
+function calculateTip() {
+    let x = prompt("How much is your bill?")
+    let y = prompt("What percentage would you like to tip?")
+    return alert("Your total tip is $" + (x * y));
+}
+ calculateTip()
 /**
  * TODO:
  * Use prompt and alert in combination with your calculateTip function to
@@ -87,3 +102,13 @@ var random = Math.floor((Math.random() * 3) + 1);
  *
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
+let total = prompt("What is the price?");
+let discount = prompt("In a decimal for what is the discount percentage?");
+;
+
+function applyDiscount(total,discount) {
+    var discountAmount = total * discount;
+    return alert("Your total t is " + (total - discountAmount)) ;
+
+}
+applyDiscount()
