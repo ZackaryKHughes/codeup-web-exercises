@@ -104,24 +104,24 @@ function calculateTotal(luckyNum, total) {
     } else if(luckyNum === 1){
         return total - (total * .10);
     } else if(luckyNum === 2){
-        return total - (total * .25;
+        return total - (total * .25);
     } else if(luckyNum === 3){
-        return total - (total * .35;
+        return total - (total * .35);
     } else if(luckyNum === 4){
-        return total - (total * .50;
+        return total - (total * .50);
     } else if(luckyNum === 5){
-        return total - (total * .50;
+        return total - (total * 1);
     } else {
         return "Please enter a valid input"
     }
 }
 
  console.log(calculateTotal(0, 100)) // returns 100.
- console.log(calculateTotal(1, 100)) // returns 100.
- console.log(calculateTotal(2, 100)) // returns 100.
- console.log(calculateTotal(3, 100)) // returns 100.
- console.log(calculateTotal(4, 100)) // returns 100.
- console.log(calculateTotal(5, 100)) // returns 100.
+ console.log(calculateTotal(1, 100)) // returns 90.
+ console.log(calculateTotal(2, 100)) // returns 75.
+ console.log(calculateTotal(3, 100)) // returns 65.
+ console.log(calculateTotal(4, 100)) // returns 50.
+ console.log(calculateTotal(5, 100)) // returns 0.
 
 
 /**
