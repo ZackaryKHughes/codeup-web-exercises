@@ -54,15 +54,31 @@
     };
     randomNames()
 
-    function number(){
-        let numbers = [1, 2, 3, 4, 5]
-        for (let i = 0; i < numbers.length; i++) {
-        }
-        console.log(numbers[0]);
-        console.log(numbers[1]);
-        console.log(numbers[4]);
+    // function number(){
+    //     let numbers = [1, 2, 3, 4, 5]
+    //     for (let i = 0; i < numbers.length; i++) {
+    //     }
+    //     console.log(numbers[0]);
+    //     console.log(numbers[1]);
+    //     console.log(numbers[4]);
+    // }
+    // number()
+
+    let numbers = [1, 2, 3, 4, 5]
+    function first(){
+       return console.log(numbers[0]);
     }
-    number()
+    first()
+
+    function second(){
+        return console.log(numbers[1]);
+    }
+    second()
+
+    function last(){
+        return console.log(numbers[4]);
+    }
+    last()
 })();
 
 
