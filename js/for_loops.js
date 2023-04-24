@@ -8,10 +8,18 @@ function showMultiplicationTable(num){
 
 }
 showMultiplicationTable(9)
-// console.log("7 x 1 = 7")
-// console.log(num + " x " + i + " = " + (num * i))
-// for (let i = 0; i < 11; i++);
-// console.log(showMultiplicationTable(7))
+
+// (function() {
+//     function showMultiplcationTable(num){
+//         for(let i = 1; i <= 10; i++) {
+//             console.log(`${num} + ${i} = ${num * i}`)
+//         }
+//
+//         showMultiplcationTable(7)
+//         showMultiplcationTable(99)
+//
+// })();
+
 
 // for (let)
 function random(min, max) {
@@ -22,11 +30,21 @@ function random(min, max) {
 
 
 for (let i = 1; i < 11; i++){
-    var randomNum = random()
+    let randomNum = random()
     if(randomNum % 2 === 0){
         console.log(randomNum + " is even.")
     } else console.log(randomNum + " is odd.")
 }
+
+// for (let i = 1; i < 11; i++){
+//     let randomNum = Math.floor(Math.random() * (200 - 2 + 1) + 20);
+//     if(randomNum % 2 === 0){
+//         console.log(randomNum + " is even.")
+//     } else console.log(randomNum + " is odd.")
+//   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ same as above
+// } // console.log(randomNum % 2 === 0 ? `${randomNum} is even` : ` ${randomNum} is odd`);
+
+
 
 let string = "";
 
@@ -40,14 +58,39 @@ console.log(string);
 
 console.log("-------------------------------------------------------");
 
-for (let i = 1; i < 10; i++) {
-    var num = i.toString();
-    console.log(num.repeat(i));
+
+for (let i = 1; i < 10; i++){
+    let output = "";
+    for (let j = 1; j <= i; j++){
+        output += i;
+    }
+    console.log(output);
 }
+
+// let output = "";
+//  for (let i = 1; i < 10; i++){
+//     for (let j = 1; j <= i; j++){
+//         output += "\n";
+//     }
+// }
+// console.log(output);
+
+// for (let i =1; i < 10; i++){
+//     console.log(i.toString().repeat(i))
+// }
+
+// for (let i = 1; i < 10; i++) {
+//     var num = i.toString();
+//     console.log(num.repeat(i));
+// }
 
 for (let i = 100; i > 4; i -= 5){
     console.log(i);
 }
+
+// for (let i = 100; i > 0; i -= 5){
+//     console.log(i);
+// }
 
 
 

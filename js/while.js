@@ -28,3 +28,21 @@ do{
     console.log(`I am so sorry. We are out of cones`)
 }
 
+// (function() {
+//     let x = 1;
+//     while(x <= 65537){
+//         console.log(x);
+//         x *= 2
+//     }
+//
+//     let allCones = Math.floor(Math.random()) * 51) + 50;
+//
+//     do {
+//         let conesToSell = Math.floor(Math.random()) * 5) + 1;
+//         if (allCones >= conesToSell) {
+//             allCones -= conesToSell;
+//             console.log(`Customer is purchasing ${conesToSell}. Only ${allCones} left`);
+//         }
+//     } while (allCones !== 0)
+// })();
+
