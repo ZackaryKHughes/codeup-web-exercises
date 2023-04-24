@@ -29,15 +29,19 @@
          * array.
          */
         for (let i = 0; i < names.length; i++) {
-            console.log(names[i])
+            console.log(names[i]);
         }
         /**
          * TODO:
          * Refactor your above code to use a `forEach` loop
          */
-        names.forEach(function(cheese, index, array) {
+        names.forEach(function(name, index, array) {
             console.log(`${index}: ${name}`);
         });
+
+        // names.forEach(function(name) {
+        //     console.log(name);
+        // })
         /**
          * TODO:
          * Create the following three functions, each will accept an array and
