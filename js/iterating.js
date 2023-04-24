@@ -84,6 +84,24 @@
         return console.log(x[numbers.length - 1]);
     }
     last(numbers)
+
+    // function first(arr){
+    //     return arr[0];
+    // }
+    //
+    // function second(arr){
+    //     return arr[1];
+    // }
+    //
+    // function last(arr){
+    //     return arr[arr.length - 1];
+    // }
+    //
+    // console.log(first([1,2,3,4,5,6,7,8,9]));
+    // console.log(second([1,2,3,4,5,6,7,8,9]));
+    // console.log(last([1,2,3,4,5,6,7,8,9]));
 })();
+
+
 
 
