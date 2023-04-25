@@ -57,3 +57,19 @@ function isTruthy(input){
 
 }
 
+function remainder(x,y) {
+    return (x % y === 0)
+
+}
+console.log(remainder(21,7))
+console.log(remainder(-34,3))
+console.log(remainder(144,-11))
+console.log(remainder(-14,"2"))
+console.log(remainder("36",9))
+console.log(remainder("44","-3"))
+console.log(remainder("Jeff","Geoff"))
+console.log(remainder(false,true))
+console.log(remainder())
+
+
+
