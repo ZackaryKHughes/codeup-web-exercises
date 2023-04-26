@@ -191,7 +191,7 @@ alert("Your lucky number was " + luckyNumber + ". The price before the discount 
 
  function numberInfo() {
 
-     if (confirm("Would you like to enter anumber?")) {
+     if (confirm("Would you like to enter a number?")) {
 
          let userInput = prompt("Enter a number please");
 
