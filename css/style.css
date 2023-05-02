@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-    background-color: lime;
+    /*background-color: lime;*/
     background-image: url("https://wallpapercave.com/wp/wp2742440.jpg");
     font-family: "Arial Black";
 }
@@ -39,9 +39,23 @@ th {
     text-weight: bold;
 }
 
-a {
-
+a:link {
+    color: blue;
 }
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+    background-color: black;
+}
+
+a:active {
+    color: black;
+}
+
 
 
 
