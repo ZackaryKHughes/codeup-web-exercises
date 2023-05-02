@@ -11,13 +11,13 @@ body {
 
 
 .main-heading {
-    color: Red;
+    color: Blue;
     text-align: center;
     text-decoration: underline;
 }
 
 .main-heading2, .title {
-    color: magenta;
+    color: firebrick;
     text-decoration: underline;
 }
 
