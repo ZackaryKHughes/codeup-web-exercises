@@ -1,8 +1,53 @@
 h1 {
     color: red;
+    text-align: center;
 }
+
+body {
+    background-color: lime;
+    background-image: url("https://wallpapercave.com/wp/wp2742440.jpg");
+    font-family: "Arial Black";
+}
+
+
+.main-heading {
+    color: Red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.main-heading2, .title {
+    color: magenta;
+    text-decoration: underline;
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+td {
+    font-size: 12px;
+}
+
+tr {
+    font-size: 12px;
+}
+
+th {
+    font-size: 18px;
+    text-weight: bold;
+}
+
+a {
+
+}
+
+
 
 .fancy-header {
     color: purple; /* single line comment */
     text-decoration: underline;
 }
+
+
