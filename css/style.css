@@ -5,13 +5,17 @@ h1 {
 
 body {
     /*background-color: lime;*/
-    background-image: url("https://wallpapercave.com/wp/wp2742440.jpg");
+    background-image: url("../img/citybackground.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    background-attachment: fixed;
     font-family: "Arial Black";
 }
 
 
+
 .main-heading {
-    color: Blue;
+    color: crimson;
     text-align: center;
     text-decoration: underline;
 }
