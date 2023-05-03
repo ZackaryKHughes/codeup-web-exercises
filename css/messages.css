@@ -10,7 +10,7 @@ body .message-info {
     width: 80%;
     background-color: #CDDEFF;
     color: #30258d;
-    margin: 10px;
+    margin: 10px auto;
     padding: .5em 1em;
     font-weight: bold;
     border: .1em solid lightgray;
@@ -21,7 +21,7 @@ body .message-success {
     width: 80%;
     background-color: #CFF3DA;
     color: #06662e;
-    margin: 10px;
+    margin: 10px auto;
     padding: .5em 1em;
     font-weight: bold;
     border: .1em solid lightgray;
@@ -32,7 +32,7 @@ body .message-warning {
     width: 80%;
     background-color: #FCFBC9;
     color: #88750b;
-    margin: 10px;
+    margin: 10px auto;
     padding: .5em 1em;
     font-weight: bold;
     border: .1em solid lightgray;
@@ -43,7 +43,7 @@ body .message-error {
     width: 80%;
     background-color: #FAD3D7;
     color: #780824;
-    margin: 10px;
+    margin: 10px auto;
     padding: .5em 1em;
     font-weight: bold;
     border: .1em solid lightgray;
