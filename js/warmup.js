@@ -65,16 +65,8 @@ console.log("-----------------------------------------")
 
 
 
-function hasEs(x){
-    if (typeof x === "string"){
-        let E = x.toLowerCase()
-        for (let i = 0; i<+ x.length; i++){
-            if(E.charAt(i) === `e`) {
-            }
-        } return true
-    } else {
-        return false
-    }
+function hasEs(str){
+    return countEs(str) > 0;
 }
 
 console.log(hasEs("Ease")); // returns 2;
