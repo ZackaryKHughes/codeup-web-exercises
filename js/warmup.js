@@ -42,10 +42,10 @@ function countEs(x) {
         let E = x.toUpperCase();
         for (let i = 0; i <+ x.length; i++) {
             if(E.charAt(i) === "E") {
-                count ++;
+                count++;
             }
-            return count
         }
+        return count
     } else {
         return false
     }
