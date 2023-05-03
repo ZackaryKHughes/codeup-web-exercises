@@ -49,7 +49,6 @@ function countEs(x) {
     } else {
         return false
     }
-
 }
 
 console.log(countEs("Ease")); // returns 2;
@@ -58,3 +57,29 @@ console.log(countEs("TOM")); // returns 0;
 console.log(countEs(true)); // returns false;
 console.log(countEs(['e', 'E'])); // returns false;
 console.log(countEs()); // returns false;
+
+
+
+
+console.log("-----------------------------------------")
+
+
+
+function hasEs(x){
+    if (typeof x === "string"){
+        let E = x.toLowerCase()
+        for (let i = 0; i<+ x.length; i++){
+            if(E.charAt(i) === `e`) {
+            }
+        } return true
+    } else {
+        return false
+    }
+}
+
+console.log(hasEs("Ease")); // returns 2;
+console.log(hasEs("teleconference")); // returns 5;
+console.log(hasEs("TOM")); // returns 0;
+console.log(hasEs(true)); // returns false;
+console.log(hasEs(['e'])); // returns false;
+console.log(hasEs()); // returns false;
