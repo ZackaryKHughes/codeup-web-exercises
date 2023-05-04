@@ -75,3 +75,25 @@ console.log(hasEs("TOM")); // returns 0;
 console.log(hasEs(true)); // returns false;
 console.log(hasEs(['e'])); // returns false;
 console.log(hasEs()); // returns false;
+
+
+console.log("-----------------------------------------")
+
+
+function fizzBuzz() {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 && i % 5 === 0) {
+            console.log("FizzBuzz");
+        } else if (i % 3 === 0) {
+            console.log("Fizz");
+        } else if (i % 5 === 0) {
+            console.log("Buzz");
+        } else {
+            console.log(i);
+        }
+    }
+}
+fizzBuzz()
+
+
+
