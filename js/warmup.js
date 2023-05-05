@@ -95,5 +95,18 @@ function fizzBuzz() {
 }
 fizzBuzz()
 
+console.log("-----------------------------------------")
+
+
+let square = 2
+
+do {
+    console.log(square);
+    square *= square;
+} while (square < 1000001);
+
+
+console.log("-----------------------------------------")
+
 
 
