@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
 
     body {
         padding: 1em;
@@ -103,7 +103,7 @@
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 577px) {
 
     .alert-info {
         visibility: hidden;

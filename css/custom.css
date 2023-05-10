@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+.navbar {
+    margin-bottom: 2em;
+}
+
+.jumbotron {
+    background-image: url("../img/pizza.png");
+    height: 346px;
+    background-size: cover;
+    padding: 7em 0;
+
+}
+
+ .light-bar p {
+     text-decoration: black;
+     font-size: 2em;
+     text-align: center;
+     opacity: 75%;
+     font-weight: bold;
+ }
+
+ h2 {
+     font-weight: bold;
+     padding-top: 1em;
+ }
+
+ .badge {
+     border-radius: 20px;
+     margin-bottom: 15px;
+     padding-top: 6px;
+     margin-right: 5px;
+ }
+
+ .menu-header {
+     font-weight: bold;
+     color: white;
+ }
+
+ .tab-content{
+     text-align: left;
+ }
+
+ .list-group {
+     padding: 1em;
+ }
+
+ .list-group-item {
+     background-color: ghostwhite;
+ }
+ .dropdown-menu {
+     width: 100%;
+ }
+
+
