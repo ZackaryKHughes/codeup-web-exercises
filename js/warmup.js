@@ -124,3 +124,21 @@ console.log(addEmUp([-13, -92, -3500])) // returns -3605
 
 
 
+console.log("-----------------------------------------")
+
+// Write a function that takes in a string and returns an object describing the string. The object should have a string property that contains the original string, a numberOfEs property that contains a count of the number of e's in the string (case-insensitive), and a isEvenLength property that contains a boolean for whether the string's length is even or not.
+
+
+function explainString(x) {
+    return{
+        string:x,
+        numberOfEs: countEs(x),
+        isEvenLength: x.length % 2 === 0
+    }
+}
+
+console.log(explainString("cheese")) // returns {string: "cheese", numberOfEs: 3, isEvenLength: true}
+console.log(explainString("dog")) // returns {string: "dog", numberOfEs: 0, isEvenLength: false}
+
+
+
