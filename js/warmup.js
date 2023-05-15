@@ -192,4 +192,18 @@ return bucket;
 console.log(extractNames(hamsters)); // returns ["Hamtaro", "Bijou", "Oxnard", "Boss", "Snoozer"];
 
 
+console.log("-----------------------------------------")
 
+
+const getTallest = function(x) {
+    let tallest = {heightInMM: 0};
+    x.forEach(function(y) {
+        if (y.heightInMM > tallest.heightInMM){
+            tallest = y;
+        }
+    });
+    return tallest;
+};
+
+
+console.log(getTallest(hamsters)); // returns {name: "Boss", heightInMM: 120, fur: ['brown', 'white'], gender: "male", dateOfBirth: "September 21"}

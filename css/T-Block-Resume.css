@@ -1,0 +1,47 @@
+:root {
+    --codeupGreen: #95ab76;
+    --solidBlue: #4f82fb;
+    --offWhite: #f0f0f0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--offWhite);
+}
+
+.description {
+    text-align: center;
+}
+
+.info-card {
+    border: none;
+}
+
+.info-group {
+    border: none;
+}
+
+.green-bar {
+    background-color: var(--codeupGreen)
+}
+
+h4 {
+    color: var(--solidBlue);
+    text-align: left;
+}
+
+.skill-list {
+    text-align: left;
+    margin-left: 1em;
+}
+
+p {
+    text-align: left;
+}
+
+
+
