@@ -207,3 +207,19 @@ const getTallest = function(x) {
 
 
 console.log(getTallest(hamsters)); // returns {name: "Boss", heightInMM: 120, fur: ['brown', 'white'], gender: "male", dateOfBirth: "September 21"}
+
+console.log("-----------------------------------------")
+
+// Write a function that takes in an array of objects and returns an array of the objects from the array that only have one fur color.
+
+function singleFurColor(x) {
+    let single = [];
+    x.forEach(function(y) {
+      if (y.fur.length === 1) {
+          single.push(y);
+      }
+    });
+    return single;
+}
+
+console.log(singleFurColor(hamsters)); // returns [{name: "Bijou", heightInMM: 75, fur: ['white'], gender: "female", dateOfBirth: "July 10"}];
