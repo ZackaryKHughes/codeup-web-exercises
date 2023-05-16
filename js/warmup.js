@@ -222,4 +222,11 @@ function singleFurColor(x) {
     return single;
 }
 
+// function singleFurColor(arr) {
+//     let single = [];
+//     for (let i = 0; i > 0; i++) {
+//         arr.fur.length
+//     }
+// }
+
 console.log(singleFurColor(hamsters)); // returns [{name: "Bijou", heightInMM: 75, fur: ['white'], gender: "female", dateOfBirth: "July 10"}];
