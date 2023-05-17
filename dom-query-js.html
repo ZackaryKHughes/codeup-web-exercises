@@ -52,11 +52,13 @@
         }
 
         // TODO: Set text color of li with dbid = 1 to blue
-        for (let j = 0; j < listItems.length; j++) {
-            if (listItems[j].hasAttribute('1'));
-            listItems[0].style.color = "blue"
-        }
 
+        for (let j = 0; j < listItems.length; j++) {
+            let dbId = listItems[j].getAttribute("data-dbid");
+            if (dbId == 1) {
+                listItems[j].style.color = "blue"
+            }
+        }
 
         // TODO: Uncomment the next line and get all elements with class name sub-paragraph
         var subParagraphs = document.getElementsByClassName('sub-paragraph');
