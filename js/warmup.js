@@ -230,3 +230,19 @@ function singleFurColor(x) {
 // }
 
 console.log(singleFurColor(hamsters)); // returns [{name: "Bijou", heightInMM: 75, fur: ['white'], gender: "female", dateOfBirth: "July 10"}];
+
+console.log("-----------------------------------------")
+
+// Write a function that takes in an array of objects and returns the object with the most colors in the fur array.
+
+function mostColorful(x) {
+    let most = {fur: []};
+    x.forEach(function(y) {
+        if (y.fur.length > most.fur.length) {
+            most = (y);
+        }
+    });
+    return most;
+}
+
+console.log(mostColorful(hamsters)); // returns {name: "Snoozer", heightInMM: 85, fur: ['brown', 'white', "pink"], gender: "male", dateOfBirth: "January 14"};
