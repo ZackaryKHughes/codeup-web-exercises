@@ -39,7 +39,6 @@
        })
 
         let title = function() {
-            alert('You Changed the Title');
         }
         document.getElementById('title').addEventListener('click', title);
 
@@ -51,7 +50,6 @@
         document.getElementById("color").addEventListener("click", function() {
             let subHeader = document.getElementById('sub-header');
             subHeader.style.color = 'blue';
-            alert("That blue really pops for the header")
         })
 
 
@@ -67,7 +65,6 @@
                     listItems[h].style.color = "grey"
                 }
             }
-            alert("Woah the list items changed color, but I don't like the first one.......Try clicking me again")
             document.getElementById("restList").addEventListener("click", function() {
                 for (let j = 0; j < listItems.length; j++) {
                     let dbId = listItems[j].getAttribute("data-dbid");
@@ -77,8 +74,6 @@
                 }
             })
         })
-
-
 
 
 
@@ -92,7 +87,6 @@
         document.getElementById("mission-accomplished").addEventListener("click", function() {
             let subParagraphs = document.getElementsByClassName('sub-paragraph');
             subParagraphs[0].innerText = "Mission Accomplished";
-            alert('We did it. We made it here.')
         })
 
 
