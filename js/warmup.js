@@ -292,3 +292,8 @@ console.log(multiplyElementsByThree([12,8])); // returns [36, 24];
 console.log(multiplyElementsByThree([100])); // returns [300];
 console.log(multiplyElementsByThree([15, 9, 33, 16, 50])); // returns [45, 27, 99, 48, 150];
 
+
+console.log("-----------------------------------------")
+
+
+
