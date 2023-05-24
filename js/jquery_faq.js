@@ -16,4 +16,19 @@
     $("#hide-faqs").on("click", function () {
         $(".visible").removeClass("visible").addClass("invisible");
     });
+
+    $("#highlightList").on("click", function () {
+        $('ul').each(function (){
+            $(this).children().last().css("background-color", "yellow");
+        });
+    })
+
+    $("h3").on("dblclick", function () {
+        $(this).next().css("font-weight", "bold")
+    })
+
+    $("li").on("dblclick", function () {
+        $(this).parent().children().first().css("color", "blue")
+    })
+
 })();
