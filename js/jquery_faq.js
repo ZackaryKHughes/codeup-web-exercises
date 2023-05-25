@@ -24,7 +24,7 @@
     })
 
     $("h3").on("dblclick", function () {
-        $(this).next().css("font-weight", "bold")
+        $(this).next().children().first().css("font-weight", "bold")
     })
 
     $("li").on("dblclick", function () {
