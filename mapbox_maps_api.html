@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>First Mapbox Map</title>
+
+
+      <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+      <link rel="stylesheet" href="css/mapbox_maps_api.css">
+      <style>
+      #map {
+        /* the width and height may be set to any size */
+        width: 100%;
+        height: 700px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My First Mapbox Map!</h1>
+
+    <script src="js/keys.js"></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <div id='map' style='width: 400px; height: 300px;'></div>
+
+    <button id="add-markers">Click Me</button>
+
+    <script src="js/mapbox_maps_api.js"></script>
+  </body>
+</html>
