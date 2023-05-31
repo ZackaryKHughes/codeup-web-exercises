@@ -6,6 +6,7 @@
 
 .navbar {
     background-color: #4f82fb;
+    margin-bottom: 1em;
 }
 
 .city-name {
@@ -14,6 +15,7 @@
 
 .card {
     background-color: gray;
+    margin-left: 1em;
 }
 
 img {

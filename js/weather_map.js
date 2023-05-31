@@ -92,7 +92,7 @@
 
 
     let weatherHTML = `<section><h4>${day}, ${month}, ${todayDate.getDate()}</h4><p>${data.list[0].main.temp_max} / ${data.list[0].main.temp_min}</p><p>${data.list[0].wind.speed + 'mph'}</p><p>${data.list[0].weather[0].main}</p></section>`;
-    $('#weather-info').html(weatherHTML);
+    $('#weather-info3').html(weatherHTML);
   })
 
 
