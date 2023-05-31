@@ -43,7 +43,7 @@
       let popup = new mapboxgl.Popup().setHTML(
         `<h3>${data.name}</h3><a href=${data.menuLink} target='_blank'>Menu</a><a href=${data.description} target='_blank'> About us</a><img src="../img/${data.image}" class="card-img-top" alt="..."><p>${data.myDish}</p>`
       );
-      let marker = new mapboxgl.Marker()
+      new mapboxgl.Marker()
         .setLngLat(data.location)
         .addTo(map)
         .setPopup(popup);
