@@ -23,7 +23,7 @@
   <body>
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-        <a class="city-name">Navbar</a>
+        <a class="header">Navbar</a>
         <form class="d-flex" role="search">
           <input
             class="form-control me-2"
@@ -31,46 +31,15 @@
             placeholder="Enter a City"
             aria-label="Search"
           />
-          <button class="btn btn-outline-dark" type="submit">Search</button>
+          <button class="btn btn-outline-primary" type="submit">Search</button>
         </form>
       </div>
     </nav>
 
     <div class="container">
-      <div class="row">
-        <div class="card" style="width: 15rem;">
-          <div class="row d-flex"></div>
-          <div class="card-body">
-            <img src="https://openweathermap.org/img/wn/10d@2x.png" class="card-img-top" alt="..."><p id="weather-info1" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-        <div class="card" style="width: 15rem;">
-          <div class="row d-flex"></div>
-          <div class="card-body">
-            <img src="https://openweathermap.org/img/wn/10d@2x.png" class="card-img-top" alt="..."><p id="weather-info2" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-        <div class="card" style="width: 15rem;">
-          <div class="row d-flex"></div>
-          <div class="card-body">
-            <img src="https://openweathermap.org/img/wn/10d@2x.png" class="card-img-top" alt="..."><p id="weather-info3" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-        <div class="card" style="width: 15rem;">
-          <div class="row d-flex"></div>
-          <div class="card-body">
-            <img src="https://openweathermap.org/img/wn/10d@2x.png" class="card-img-top" alt="..."><p id="weather-info4" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-          <div class="card" style="width: 15rem;">
-            <div class="row d-flex"></div>
-              <div class="card-body">
-                  <img src="https://openweathermap.org/img/wn/10d@2x.png" class="card-img-top" alt="..."><p id="weather-info5" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-          </div>
-            <div class="row" id="weather-stats"></div>
-          <div id="map" class="container"></div>
+      <div class="row" id="card-container">
       </div>
+      <div id="map" class="container"></div>
     </div>
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
