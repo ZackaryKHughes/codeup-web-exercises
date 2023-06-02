@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('http://bestanimations.com/Nature/winter/winter-snow-nature-animated-gif-23.gif');
+    background-image: url("../img/clearskies.gif");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -27,4 +27,8 @@ body {
 
 #map {
     margin-top: 3em;
+}
+
+h1 {
+    color: blue;
 }
