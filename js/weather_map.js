@@ -46,7 +46,7 @@
 
   function onDragEnd() {
     updatedCoordinates = [];
-    const lngLat = marker.getLngLat();
+    let lngLat = marker.getLngLat();
     updatedCoordinates.push(lngLat.lng);
     updatedCoordinates.push(lngLat.lat);
     console.log(updatedCoordinates);
@@ -91,10 +91,10 @@
       let milliseconds = (item.dt * 1000)
       if (index % 8 === 0) {
         $("#card-container").append(`<div class="card col">
-  <div class="card-header">
+  <div class="card-header ">
     <h6>${new Date(milliseconds).toDateString()}</h6>
   </div>
-  <ul class="list-group list-group-flush">
+  <ul class="list-group">
     <li class="list-group-item">Temp: ${item.main.temp.toFixed(0)}&#8457</li>
     <li class="list-group-item">Feels Like: ${item.main.feels_like.toFixed(
             0
@@ -108,5 +108,4 @@
       }
     });
   }
-
 })();
