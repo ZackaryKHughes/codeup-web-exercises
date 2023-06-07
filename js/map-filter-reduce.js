@@ -67,7 +67,7 @@
         return `${acc}${name}${isLast ? '' : ', '}`;
     }, '');
 
-    console.log(names);
+    console.log("The instructor name are:" + names);
 
 
     const uniqueLanguages = users.reduce((languages, user) => {
